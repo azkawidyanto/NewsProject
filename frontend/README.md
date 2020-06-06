@@ -1,6 +1,6 @@
-# newsproject
+# frontend
 
-> A Vue.js project
+> vue frontend for newsproject
 
 ## Build Setup
 
