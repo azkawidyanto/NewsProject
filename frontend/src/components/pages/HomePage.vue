@@ -1,13 +1,23 @@
 <template>
-  <NavBar/>
+  <Dashboard>
+    <component :is="child_component"/>
+  </Dashboard>
 </template>
 
 <script>
-import NavBar from '../partials/NavBar/NavBar'
+import Dashboard from '../partials/Dashboard/Dashboard'
+import MainPage from '../partials/@HomePage/MainPage'
+
 export default {
   name: 'HomePage',
   components: {
-    NavBar
+    Dashboard,
+    MainPage
+  },
+  data () {
+    return {
+      child_component: 'main-page'
+    }
   }
 }
 </script>
