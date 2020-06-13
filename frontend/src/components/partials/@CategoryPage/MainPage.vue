@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <h1>buat homepage</h1>
+    <h1>buat category</h1>
   </v-container>
 </template>
 
