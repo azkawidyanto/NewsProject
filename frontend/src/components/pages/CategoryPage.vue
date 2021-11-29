@@ -4,6 +4,7 @@
   </Dashboard>
 </template>
 
+
 <script>
 import Dashboard from '../partials/Dashboard/Dashboard'
 import MainPage from '../partials/@CategoryPage/MainPage'
@@ -21,6 +22,7 @@ export default {
   }
 }
 </script>
+
 
 <style scoped>
 </style>
